@@ -1,0 +1,6 @@
+Pattern Used To Create Objects Made From A Bunch Of Other Objects
+Here's When the Builder Pattern Works:
+    When You Want to Build an Object Made Of Other Objects
+    Creation Of Parts be Independent Of Main Object
+    Hide The Creation Of Parts From Client
+    Only Builder Knows The Specifics

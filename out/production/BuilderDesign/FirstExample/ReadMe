@@ -1,0 +1,18 @@
+The Builder pattern is a design pattern used to create complex objects step by step.
+This pattern provides a high-level API for creating objects, allowing us to avoid constructors with many parameters.
+
+Here's how the Builder pattern works:
+
+    Define an abstract class (Burger) or interface with required properties.
+    Create a separate Builder class with the same properties as the Burger class.
+    The Builder class provides a method called "build()" which creates and returns the final Burger object.
+    Use the Builder class to create instances of the Burger class by setting the required properties step by step.
+
+The main advantages of the Builder pattern are:
+
+    Encapsulation: It helps in separating the construction logic from the business logic.
+    Immutability: Once an object is created using the Builder pattern, it can't be changed, providing better security and thread-safety.
+    Ease of reading: It improves the readability of the code, making it easier to understand.
+
+The main disadvantage of the Builder pattern is that it requires more classes and more code to create objects compared to other design patterns.
+However, it offers significant advantages in terms of code maintainability and flexibility.
